@@ -112,7 +112,7 @@ end
 
 local function project_list(config, callback)
   config.project = vim.tbl_extend('force', {
-    limit = 2,
+    limit = 3,
     enable = true,
     icon = '󰏓 ',
     icon_hl = 'DashboardRecentProjectIcon',
