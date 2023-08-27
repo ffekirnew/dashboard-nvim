@@ -36,11 +36,11 @@ local function default_options()
     theme = 'hyper',
     disable_move = false,
     shortcut_type = 'letter',
-    buffer_name = 'Dashboard',
+    buffer_name = 'Wudasie Mariam',
     change_to_vcs_root = false,
     config = {
       week_header = {
-        enable = false,
+        enable = true,
         concat = nil,
         append = nil,
       },

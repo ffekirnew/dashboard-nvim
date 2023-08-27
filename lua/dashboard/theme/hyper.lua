@@ -5,8 +5,8 @@ local ns = api.nvim_create_namespace('dashboard')
 local function gen_shortcut(config)
   local shortcut = config.shortcut
     or {
-      { desc = '[  Github]', group = 'DashboardShortCut' },
-      { desc = '[  glepnir]', group = 'DashboardShortCut' },
+      { desc = '[  GɪᴛHᴜʙ]', group = 'DashboardShortCut' },
+      { desc = '[  ғғᴇᴋɪʀɴᴇᴡ]', group = 'DashboardShortCut' },
       { desc = '[  0.2.3]', group = 'DashboardShortCut' },
     }
 
