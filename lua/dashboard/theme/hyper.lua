@@ -82,8 +82,8 @@ local function load_packages(config)
   if package_manager_stats.name == 'lazy' then
     lines = {
       '',
-      'Startuptime: ' .. package_manager_stats.time .. ' ms',
-      'Plugins: '
+      '🚀 Startuptime: ' .. package_manager_stats.time .. ' ms',
+      '⚙️  Plugins: '
         .. package_manager_stats.loaded
         .. ' loaded / '
         .. package_manager_stats.count
@@ -112,7 +112,7 @@ end
 
 local function project_list(config, callback)
   config.project = vim.tbl_extend('force', {
-    limit = 8,
+    limit = 2,
     enable = true,
     icon = '󰏓 ',
     icon_hl = 'DashboardRecentProjectIcon',
@@ -159,7 +159,7 @@ end
 local function mru_list(config)
   config.mru = vim.tbl_extend('force', {
     icon = ' ',
-    limit = 10,
+    limit = 3,
     icon_hl = 'DashboardMruIcon',
     label = ' Most Recent Files:',
   }, config.mru or {})
