@@ -5,8 +5,8 @@ local ns = api.nvim_create_namespace('dashboard')
 local function gen_shortcut(config)
   local shortcut = config.shortcut
     or {
-      { desc = '[  Github]', group = 'DashboardShortCut' },
-      { desc = '[  glepnir]', group = 'DashboardShortCut' },
+      { desc = '[  GɪᴛHᴜʙ]', group = 'DashboardShortCut' },
+      { desc = '[  ғғᴇᴋɪʀɴᴇᴡ]', group = 'DashboardShortCut' },
       { desc = '[  0.2.3]', group = 'DashboardShortCut' },
     }
 
@@ -112,7 +112,7 @@ end
 
 local function project_list(config, callback)
   config.project = vim.tbl_extend('force', {
-    limit = 8,
+    limit = 3,
     enable = true,
     icon = '󰏓 ',
     icon_hl = 'DashboardRecentProjectIcon',
@@ -160,7 +160,7 @@ end
 local function mru_list(config)
   config.mru = vim.tbl_extend('force', {
     icon = ' ',
-    limit = 10,
+    limit = 3,
     icon_hl = 'DashboardMruIcon',
     label = ' Most Recent Files:',
   }, config.mru or {})
@@ -416,7 +416,7 @@ end
 local function gen_footer(config)
   local footer = {
     '',
-    ' 🚀 Sharp tools make good work.',
+    'Iғ I\'ᴍ ᴜsɪɴɢ VS Cᴏᴅᴇ, ᴄᴏᴍғᴏʀᴛ ᴍᴇ, I\'ᴍ ɪɴ ᴘᴀɪɴ. Fᴏʀ ᴍʏ NᴇᴏVɪᴍ ᴄᴏɴғɪɢ ʜᴀs, sᴀᴅʟʏ, ʙᴇᴇɴ ʙʀᴏᴋᴇɴ.',
   }
 
   if type(config.footer) == 'string' then
