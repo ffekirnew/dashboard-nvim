@@ -416,10 +416,6 @@ end
 local function gen_footer(config)
   local footer = {
     '',
-    '',
-    '',
-    '',
-    '',
     "Iғ I'ᴍ ᴜsɪɴɢ VS Cᴏᴅᴇ, ᴄᴏᴍғᴏʀᴛ ᴍᴇ, I'ᴍ ɪɴ ᴘᴀɪɴ. Fᴏʀ ᴍʏ NᴇᴏVɪᴍ ᴄᴏɴғɪɢ ʜᴀs, sᴀᴅʟʏ, ʙᴇᴇɴ ʙʀᴏᴋᴇɴ.",
   }
 
