@@ -112,7 +112,7 @@ end
 
 local function project_list(config, callback)
   config.project = vim.tbl_extend('force', {
-    limit = 3,
+    limit = 8,
     enable = true,
     icon = '󰏓 ',
     icon_hl = 'DashboardRecentProjectIcon',
@@ -160,7 +160,7 @@ end
 local function mru_list(config)
   config.mru = vim.tbl_extend('force', {
     icon = ' ',
-    limit = 3,
+    limit = 10,
     icon_hl = 'DashboardMruIcon',
     label = ' Most Recent Files:',
   }, config.mru or {})
@@ -416,7 +416,11 @@ end
 local function gen_footer(config)
   local footer = {
     '',
-    'Iғ I\'ᴍ ᴜsɪɴɢ VS Cᴏᴅᴇ, ᴄᴏᴍғᴏʀᴛ ᴍᴇ, I\'ᴍ ɪɴ ᴘᴀɪɴ. Fᴏʀ ᴍʏ NᴇᴏVɪᴍ ᴄᴏɴғɪɢ ʜᴀs, sᴀᴅʟʏ, ʙᴇᴇɴ ʙʀᴏᴋᴇɴ.',
+    '',
+    '',
+    '',
+    '',
+    "Iғ I'ᴍ ᴜsɪɴɢ VS Cᴏᴅᴇ, ᴄᴏᴍғᴏʀᴛ ᴍᴇ, I'ᴍ ɪɴ ᴘᴀɪɴ. Fᴏʀ ᴍʏ NᴇᴏVɪᴍ ᴄᴏɴғɪɢ ʜᴀs, sᴀᴅʟʏ, ʙᴇᴇɴ ʙʀᴏᴋᴇɴ.",
   }
 
   if type(config.footer) == 'string' then

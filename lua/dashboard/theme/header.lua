@@ -14,9 +14,12 @@ local function week_ascii_text()
       '██║  ██║██║ ╚███║╚██████╔╝███████╗███████╗  ╚██████╔╝██║  ██║██████╦╝██║  ██║██║███████╗███████╗',
       '╚═╝  ╚═╝╚═╝  ╚══╝ ╚═════╝ ╚══════╝╚══════╝   ╚═════╝ ╚═╝  ╚═╝╚═════╝ ╚═╝  ╚═╝╚═╝╚══════╝╚══════╝',
       'ᴡᴀs sᴇɴᴛ ғʀᴏᴍ Gᴏᴅ ᴜɴᴛᴏ ᴀ ᴄɪᴛʏ ᴏғ Gᴀʟɪʟᴇᴇ, ɴᴀᴍᴇᴅ Nᴀᴢᴀʀᴇᴛʜ,',
-      'To a virgin espoused to a man whose name was Joseph, of the house of David; and the virgin\'s name was Mary.',
+      "To a virgin espoused to a man whose name was Joseph, of the house of David; and the virgin's name was Mary.",
       '(Luke 1:26-27)',
-      ''
+      '',
+      '',
+      '',
+      '',
     },
     ['Tuesday'] = {
       '',
@@ -29,8 +32,7 @@ local function week_ascii_text()
       '╚═╝  ╚═╝╚═╝  ╚══╝╚═════╝      ╚═╝   ╚═╝  ╚═╝╚══════╝  ╚═╝  ╚═╝╚═╝  ╚══╝ ╚═════╝ ╚══════╝╚══════╝',
       'ᴄᴀᴍᴇ ɪɴ ᴜɴᴛᴏ ʜᴇʀ, ᴀɴᴅ sᴀɪᴅ, Hᴀɪʟ, ᴛʜᴏᴜ ᴛʜᴀᴛ ᴀʀᴛ ʜɪɢʜʟʏ',
       'favoured, the Lord is with thee: blessed art thou among women. (Luke 1:28)',
-      ''
-
+      '',
     },
     ['Wednesday'] = {
       '',
@@ -44,11 +46,9 @@ local function week_ascii_text()
       'sᴀᴡ ʜɪᴍ, sʜᴇ ᴡᴀs ᴛʀᴏᴜʙʟᴇᴅ ᴀᴛ ʜɪs sᴀʏɪɴɢ, ᴀɴᴅ ᴄᴀsᴛ ɪɴ ʜᴇʀ ᴍɪɴᴅ ᴡʜᴀᴛ ᴍᴀɴɴᴇʀ ᴏғ sᴀʟᴜᴛᴀᴛɪᴏɴ ᴛʜɪs sʜᴏᴜʟᴅ ʙᴇ.',
       'And the angel said unto her, Fear not, Mary: for thou hast found favour with God.',
       'And, behold, thou shalt conceive in thy womb, and bring forth a son, and shalt call his name JESUS. (Luke 1:29-31)',
-      ''
+      '',
     },
     ['Thursday'] = {
-      '',
-      '',
       'Hᴇ',
       ' ██████╗██╗  ██╗ █████╗ ██╗     ██╗       ██████╗ ███████╗   ██████╗ ██████╗ ███████╗ █████╗ ████████╗   ',
       '██╔════╝██║  ██║██╔══██╗██║     ██║       ██╔══██╗██╔════╝  ██╔════╝ ██╔══██╗██╔════╝██╔══██╗╚══██╔══╝   ',
@@ -59,7 +59,8 @@ local function week_ascii_text()
       'and shall be called the Son of the Highest:',
       'and the Lord God shall give unto him the throne of his father David:',
       'And he shall reign over the house of Jacob for ever; and of his kingdom there shall be no end. (Luke 1:32-33)',
-      ''
+      '',
+      '',
     },
     ['Friday'] = {
       '',
@@ -72,7 +73,7 @@ local function week_ascii_text()
       '   ╚═╝   ╚═╝  ╚═╝╚══════╝╚═╝  ╚══╝  ╚═════╝ ╚═╝  ╚═╝╚═╝╚═════╝   ╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝   ',
       'ᴜɴᴛᴏ ᴛʜᴇ ᴀɴɢᴇʟ, Hᴏᴡ sʜᴀʟʟ ᴛʜɪs ʙᴇ, sᴇᴇɪɴɢ I ᴋɴᴏᴡ ɴᴏᴛ ᴀ ᴍᴀɴ?',
       '(Luke 1:34)',
-      ''
+      '',
     },
     ['Saturday'] = {
       '',
@@ -87,7 +88,7 @@ local function week_ascii_text()
       'ᴀɴᴅ ᴛʜᴇ ᴘᴏᴡᴇʀ ᴏғ ᴛʜᴇ Hɪɢʜᴇsᴛ sʜᴀʟʟ ᴏᴠᴇʀsʜᴀᴅᴏᴡ ᴛʜᴇᴇ:',
       'therefore also that holy thing which shall be born of thee shall be called the Son of God.',
       'Luke 1:35',
-      ''
+      '',
     },
     ['Sunday'] = {
       '',
@@ -101,7 +102,7 @@ local function week_ascii_text()
       'Mʏ sᴏᴜʟ ᴅᴏᴛʜ ᴍᴀɢɴɪғʏ ᴛʜᴇ Lᴏʀᴅ, Aɴᴅ ᴍʏ sᴘɪʀɪᴛ ʜᴀᴛʜ ʀᴇᴊᴏɪᴄᴇᴅ ɪɴ Gᴏᴅ ᴍʏ Sᴀᴠɪᴏᴜʀ.',
       'For he hath regarded the low estate of his handmaiden:',
       'for, behold, from henceforth all generations shall call me blessed. (Luke 1:46-48)',
-      ''
+      '',
     },
   }
 end
